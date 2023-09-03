@@ -548,8 +548,23 @@ span {
 }
 
 @media (max-width: 376px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-img {
+    height: 18rem;
+  }
   .home-img img {
     width: 60vw;
+    margin-bottom: 20rem;
+  }
+  .portfolio-box img {
+    width: 30rem;
+  }
+  .portfolio-container {
+    width: 30rem;
   }
 }
 
