@@ -433,6 +433,9 @@ span {
   color: var(--secondary-color);
 }
 
+#loom-companion-mv3 {
+  display: none;
+}
 /* ///////////////// Break Points //////////////////*/
 /* //////////////////////////////////////////////// */
 
@@ -508,9 +511,8 @@ span {
   }
 
   .home-img img {
-    /* width: 70vw;
-		margin-top: 4rem; */
-    width: 50vw;
+    width: 70vw;
+    margin-top: 4rem;
   }
 
   .about {
@@ -541,40 +543,9 @@ span {
   }
 }
 
-@media (max-width: 474px) {
-  .home-img img {
-    width: 60vw;
-  }
-}
-
-@media (max-width: 376px) {
-  .portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .home-img {
-    height: 18rem;
-  }
-  .home-img img {
-    width: 60vw;
-    margin-bottom: 20rem;
-  }
-  .portfolio-box img {
-    width: 30rem;
-  }
-  .portfolio-container {
-    width: 30rem;
-  }
-}
-
 @media (max-width: 450px) {
   html {
     font-size: 50%;
-  }
-
-  .home-img img {
-    width: 60vw;
   }
 
   .contact form .input-box input {
